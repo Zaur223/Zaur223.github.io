@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    background-color: #212121;
+    height: 53px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 70px;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background-color: rgba(0,0,0, .6);
+}
+
+.subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 19px;
+}
+
+.subheader_official {
+    margin-top: 6px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 100;
+    opacity: 0.5;
+}
+
+.subheader_call {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: right;
+}
+
+.subheader_phone {
+    display: block;
+    color: #FFF;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.subheader_btn {
+    margin-top: 21px;
+    width: 172px;
+    height: 46px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/uber_bg.jpg') center center/cover no-repeat;
+    padding: 150px 0 185px 0;
+}
+
+.promo_header {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.promo_subheader {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.promo_descr {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+    width: 259px;
+    height: 63px;
+    border-radius: 4px;
+    border: none;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.advantages {
+    min-height: 850px;
+    padding: 20px 0 64px 0;
+}
+
+.advantages_substrate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0 auto;
+    width: 113px;
+    height: 24px;
+    background-color: black;
+    font-size: 11px;
+    font-weight: 100;
+    line-height: 11px;
+    text-transform: uppercase;
+}
+
+.advantages_header {
+    margin: 33px 0 0 0;
+    text-align: center;
+    color: #222;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.advantage_descr {
+    margin-top: 16px;
+    width: 372px;
+    font-weight: 100;
+    margin-bottom: 26px;
+}
+
+.advantage_descr span {
+    color: #1EACC7;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 17;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.img_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%; 
+    width: 116px;
+    height: 116px;
+    background-color: #1EACC7;
+}
